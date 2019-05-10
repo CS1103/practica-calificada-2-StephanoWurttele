@@ -9,11 +9,12 @@ int main() {
     string arr2[3]={"","",""};
     arr1[0]="E";
     arr1[1]="A";
+
     arr2[0]="P";
     arr2[1]="S";
     arr2[2]="F";
     BruceLee a(arr1,arr2);
-    a.attack();
     assert(a.defense()==9);
+    assert(a.attack()==16);
     return 0;
 }     
